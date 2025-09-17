@@ -1,7 +1,8 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = '\\'
 vim.g.have_nerd_font = true
-vim.g.clipboard = 'osc52'
+-- Uncomment if you want to yank from remote server
+-- vim.g.clipboard = 'osc52'
 
 vim.o.number = true
 vim.o.relativenumber = true
