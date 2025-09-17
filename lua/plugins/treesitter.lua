@@ -4,13 +4,13 @@ return {
   config = function()
     require'nvim-treesitter.configs'.setup {
       ensure_installed = {
-        "asm", "astro", "bash", "c", "c_sharp", "cmake", "cpp", "css", "csv", "diff", "dockerfile", "elixir",
-        "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore", 
+        "bash", "c", "c_sharp", "cmake", "cpp", "css", "csv", "diff", "dockerfile", "elixir",
+        "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore",
         "go", "gomod", "gosum", "gotmpl", "gowork", "graphql", "html", "http", "java", "javadoc",
-        "javascript", "jsdoc", "json", "jsonc", "kotlin", "latex", "llvm", "lua", "luadoc", "make",
-        "markdown", "markdown_inline", "nginx", "ocaml", "pascal", "perl", "php", "phpdoc", "proto",
-        "pug", "python", "regex", "requirements", "robots", "ruby", "rust", "scala", "scss", "solidity",
-        "sql", "ssh_config", "svelte", "swift", "terraform", "tmux", "toml", "tsx", "typescript", "vim",
+        "javascript", "jsdoc", "json", "jsonc", "kotlin", "llvm", "lua", "luadoc", "make",
+        "markdown", "markdown_inline", "nginx", "php", "phpdoc",
+        "pug", "python", "regex", "requirements", "robots", "rust", "scala", "scss", "solidity",
+        "sql", "ssh_config", "terraform", "tmux", "toml", "tsx", "typescript", "vim",
         "vimdoc", "vue", "xml", "yaml", "zig"
       },
       auto_install = false,
